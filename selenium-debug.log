@@ -1,0 +1,27 @@
+10:05:36.861 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+10:05:36.944 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4445
+2019-01-02 10:05:37.009:INFO::main: Logging initialized @445ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:05:37.314 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+10:05:37.510 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+10:05:37.789 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "mobileEmulation": {
+      "deviceMetrics": {
+        "width": 360,
+        "height": 640,
+        "pixelRatio": 3
+      },
+      "userAgent": "Mozilla\u002f5.0 (Linux; Android 6.0; Nexus 5 Build\u002fMRA58N) AppleWebKit\u002f537.36 (KHTML, like Gecko) Chrome\u002f60.0.3112.101 Mobile Safari\u002f537.36 profi-autotest"
+    }
+  },
+  "javascriptEnabled": true,
+  "name": "Mobile Mining"
+}
+10:05:37.792 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90) on port 25552
+Only local connections are allowed.
+10:05:40.594 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+10:05:40.876 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 49001c460c4f09e39a0c33cb3346bd9d (org.openqa.selenium.chrome.ChromeDriverService)
+10:06:20.553 INFO [ActiveSessions$1.onStop] - Removing session 49001c460c4f09e39a0c33cb3346bd9d (org.openqa.selenium.chrome.ChromeDriverService)
